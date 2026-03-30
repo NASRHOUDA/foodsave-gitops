@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: foodsave-app-frontend:latest
+        image: docker.io/houdanasr/foodsave-frontend:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80

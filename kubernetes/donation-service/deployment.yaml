@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: donation-service
-        image: foodsave-app-donation-service:latest
+        image: docker.io/houdanasr/foodsave-donation:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3002
