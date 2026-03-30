@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: docker.io/houdanasr/foodsave-user:latest
+        image: docker.io/houdanasr/foodsave-user:9
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3001

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: matching-service
-        image: docker.io/houdanasr/foodsave-matching:latest
+        image: docker.io/houdanasr/foodsave-matching:9
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3005

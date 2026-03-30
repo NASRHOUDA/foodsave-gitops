@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: notification-service
-        image: docker.io/houdanasr/foodsave-notification:latest
+        image: docker.io/houdanasr/foodsave-notification:9
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3004
